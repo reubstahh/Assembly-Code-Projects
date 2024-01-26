@@ -1,0 +1,31 @@
+I am running on MacOS. 
+
+I inputted 10 and 5 for the homework and tested other numbers too.
+
+My add, XOR, mult, mod, shift, and factorial functions all work fine.
+
+One thing I noticed with the factorial function is that any 
+number beyond 20 outputs a negative number when finding the factorial of it. 
+I had to integrate a loop for this as any number above 20 or below 1 would 
+be considered out of bounds.
+
+My rotate function was where I was having problems. When I used ror I would 
+get 5764607523034234880 x5000000000000000 as my output when it rotates
+right. However, when I used rcr my output was -6917529027641081856 xa000000000000000.
+Regardless, both are correct as they both rotate right. My rotate left worked
+properly. My rotate function seemed fine with other numbers too.
+
+My error messages worked properly too.
+
+This was my ouput: 
+Operand 1 = 10 x000000000000000a Operand 2 = 5 x0000000000000005
+Add():	        15 x000000000000000f
+XOR():	        15 x000000000000000f
+Mult():	        50 x0000000000000032
+Mod():	         0 x0000000000000000
+ShiftL:	       320 x0000000000000140
+ShiftR:	         0 x0000000000000000
+RotateL:       320 x0000000000000140
+RotateR:5764607523034234880 x5000000000000000
+Fact():	   3628800 x0000000000375f00
+
