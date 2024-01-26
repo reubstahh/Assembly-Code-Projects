@@ -1,0 +1,25 @@
+Name: Reuben George
+Student ID: 015401516
+OS Type: Mac OS
+64-bit
+Compiler: Visual Studio Code
+
+My program works properly. I tested it with everything (large strings, 
+numbers, etc.) and it worked completely fine. I had problems with the 
+wrap around logic (a -> z, z -> a), but I was able to figure it out.
+Another problem I did have at the end was an unnecessary '?' being added
+to the end of the ouput whenever I inputted a large string, but I 
+was able to fix that by making sure the string ended with a null 
+terminator. 
+
+./p3 "Frank Butt" 0
+Current keys: Direction=0, Shiftcount=2
+Source string = Frank Butt
+Target string = hTCPM dWVV
+Number of characters converted = 9
+
+./p3 "Frank Butt" 0 1 5
+Current keys: Direction=1, Shiftcount=5
+Source string = Frank Butt
+Target string = aMVIF wPOO
+Number of characters converted = 9
