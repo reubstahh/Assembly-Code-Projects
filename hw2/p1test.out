@@ -1,0 +1,32 @@
+Fains-MacBook-Pro-2:p2 fainbutt$ ./p1 p1.data1 1
+
+10 -20 5 12 30 -5 -22 55 52 0 
+
+Number of integer = 10
+Ascend_or_Descend = 1
+
+-22 -20 -5 0 5 10 12 30 52 55 
+Fains-MacBook-Pro-2:p1 fainbutt$ ./p1 p1.data1 2
+
+10 -20 5 12 30 -5 -22 55 52 0 
+
+Number of integer = 10
+Ascend_or_Descend = 2
+
+55 52 30 12 10 5 0 -5 -20 -22 
+Fains-MacBook-Pro-2:p1 fainbutt$ ./p1 p1.data2 1
+
+48 -24 48 -24 10 100 -10 60 -256 10 -10 4096 -1024 60 10 -10 
+
+Number of integer = 16
+Ascend_or_Descend = 1
+
+-1024 -256 -24 -24 -10 -10 -10 10 10 10 48 48 60 60 100 4096 
+Fains-MacBook-Pro-2:p1 fainbutt$ ./p1 p1.data2 2
+
+48 -24 48 -24 10 100 -10 60 -256 10 -10 4096 -1024 60 10 -10 
+
+Number of integer = 16
+Ascend_or_Descend = 2
+
+4096 100 60 60 48 48 10 10 10 -10 -10 -10 -24 -24 -256 -1024 
