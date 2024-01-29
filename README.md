@@ -1,3 +1,2 @@
-Assembly Code Projects
-hw1: performs various commands like add, multiply, shift, etc. It does this by modifying the binary version of each number.
+These are my assembly code projects. If you click on each folder it shows what the respective project does.
 
